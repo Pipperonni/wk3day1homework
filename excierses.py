@@ -55,3 +55,5 @@ for person in data:
     match = famous_person.search(person)
     if match:
         print("\n",f"{match.group()}")
+    else:
+        print(None)
